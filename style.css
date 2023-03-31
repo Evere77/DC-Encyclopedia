@@ -1,0 +1,129 @@
+body {
+    font-family: 'Bangers', cursive;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+img:active {
+    transform: scale(0.8)
+}
+
+#imageSuperman, #imageBatman, #imageWonderWoman, #imageLexLuthor,#imageJoker,#imageCheetah {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .03s;
+}
+.logoImage {
+    width: 54px;
+    border-radius: 50%;
+}
+
+.searchIcon {
+    width: 27px;
+}
+
+a{
+    text-decoration: none;
+    color: #0071f6;
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: #0071f6;
+}
+
+.btn  {
+    background-color: #0071f6;
+}
+
+#clockdiv{ 
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #0071f6;
+ }
+
+ .btn-outline-warning {
+   font-size:1rem;
+   color: white;
+   font-weight: 700;
+   width: 60px;
+   height: 60px;
+   line-height: 1;
+   padding: 18px 0 0 0;
+ }
+
+#countDown {
+    color: #0071f6;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.banner {
+    width: 22%;
+}
+
+.instagram {
+    width: 10%;
+}
+
+.col.container {
+    position: relative;
+    text-align: center;
+    color: white;
+	font-size: 10px;
+	text-shadow: -1px 1px 2px #000,
+				  1px 1px 2px #000,
+				  1px -1px 0 #000,
+				  -1px -1px 0 #000;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 15px;
+    right: 25px;
+    font-weight: bolder;
+    font-size: large ;
+}
+
+h1 {
+    color: white;
+}
+
+.nav-link {
+    color: #0071f6
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #f0ad4e;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+  .readableText {
+    font-family: cursive;
+    font-size: larger;
+  }

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+    </style>
+    <title>DC Encyclopedia</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="d-flex justify-content-center">
+          <h1 class="mb-0 p-3 display-3"><a href="https://www.dc.com/" target="_blank"><img
+            src="./images/DC-Comics-Logo.jpg"
+            alt="DC comic logo"
+            class="logoImage align-items-center"
+          /></a>
+            
+            Encyclopedia
+          </h1>
+        </div>
+      </header>
+    </div>
+    <div class="container">
+      <div class="row mb-3 border p-2 align-items-center">
+        <div class="col text-center">
+          <h5 class="mb-0 display-6 turn-white"><a href="#about">About</a></h5>
+        </div>
+        <div class="col text-center">
+          <h5 class="mb-0 display-6 turn-white"><a href="contact.html">Contact</a></h5>
+        </div>
+        <div class="col input-group">
+          <input
+            type="search"
+            class="form-control rounded"
+            placeholder="Search"
+            aria-label="Search"
+            aria-describedby="search-addon"
+          />
+          <button type="button" class="btn">
+            <img src="./images/8580_green_lanterns.png" class="searchIcon" />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+        <div class="d-flex justify-content-center mb-2">
+          <iframe width="460" height="215" src="https://www.youtube.com/embed/hebWYacbdvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      <div id="clockdiv">
+        <h6>Movie releases in...</h6>
+        <div class= "btn btn-outline-warning rounded-2">
+          <span class="days" id="day"></span>
+          <div>Days</div> 
+        </div> 
+        <div class= "btn btn-outline-warning rounded-2"> 
+          <span class="hours" id="hour"></span> 
+          <div>Hrs</div> 
+        </div> 
+        <div class= "btn btn-outline-warning rounded-2"> 
+          <span class="minutes" id="minute"></span> 
+          <div>Mins</div> 
+        </div>
+        <div class= "btn btn-outline-warning rounded-2"> 
+          <span class="seconds" id="second"></span> 
+          <div>Secs</div> 
+        </div> 
+      </div>
+      <p id="countDown" class="d-flex justify-content-center align-items-center mb-3"></p>
+      <h2 class="d-flex justify-content-center border mb-4 p-2">Heroes</h2>
+      <div class="row gx-4 mb-5">
+        <div class="col container">
+          <img
+            src="./images/FinalSuper.JPG"
+            alt="Superman pic" id="imageSuperman" onclick="changeImage()"
+          />
+          <div class="bottom-right">Click for Action!</div>
+        </div>
+        <div class="col container">
+          <img src="./images/FinalBat.JPG" alt="Batman pic" id="imageBatman" onclick="changeImage2()"/>
+          <div class="bottom-right">Click for Adventure!</div>
+        </div>
+        <div class="col container b">
+          <img
+            src="./images/FinalWonder.JPG"
+            alt="Wonder Woman pic"
+            id="imageWonderWoman" onclick="changeImage3()"
+          />
+          <div class="bottom-right">Click for Victory!</div>
+        </div>
+      </div>
+      <h2 class="d-flex justify-content-center border mb-4 p-3">Villains</h2>
+      <div class="row gx-4 mb-4">
+        <div class="col">
+          <img
+            src="./images/FinalLex.JPG"
+            alt="Lex Luthor pic"
+            id="imageLexLuthor" onclick="changeImage4()"
+          />
+        </div>
+        <div class="col">
+          <img src="./images/FinalJoker.JPG" alt="The Joker pic" id="imageJoker" onclick="changeImage5()" />
+        </div>
+        <div class="col">
+          <img src="./images/FinalCheet.JPG" alt="Cheetah pic" id="imageCheetah" onclick="changeImage6()" />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h2 class="d-flex justify-content-center border mb-4 p-3" id="about">About Us</h2>
+      <p class="display-6">
+        Welcome to DC Encyclopedia. The home for DC characters good and
+        <em>evil</em>! Here we love to share all things DC, from comics, live
+        action movies, cartoons and television. If you can't find it here, it
+        doesn't exist. As of now we are currently trying our best to get
+        everything up and running. The passion we have for DC is so great that we welcome everyone from everywhere. We plan to have discussion boards up too so we can talk to other fans like ourselves.
+      </p>
+      <h3>History</h3>
+      <p class="readableText">
+        Origins The corporation is an amalgamation of several companies. National Allied Publications was founded by Major Malcolm Wheeler-Nicholson in 1934 to publish New Fun: The Big Comic Magazine #1 (Feb. 1935), later known as More Fun. The first American comic book with solely original material rather than comic strip reprints, it was a tabloid-sized, 10-inch by 15-inch, 36-page magazine with a card-stock, non-glossy cover. Issue #6 (Oct. 1935) brought the comic-book debut of Jerry Siegel and Joe Shuster, the future creators of Superman, who began their careers with the musketeer swashbuckler "Henri Duval" and, under the pseudonyms "Leger and Reuths", the supernatural-crimefighter adventure "Doctor Occult".
+        <br>
+        <br>
+        Wheeler-Nicholson added a second magazine, New Comics, which premiered with a Dec. 1935 cover date and at close to what would become the standard size of Golden Age comic books, with slightly larger dimensions than today's. That title evolved into Adventure Comics, which continued through issue #503 in 1983, becoming one of the longest-running comic-book series.
+        <br>
+        <br>
+        His third and final title was Detective Comics, advertised with a cover illustration dated Dec. 1936, but eventually premiering three months late, with a March 1937 cover date. The themed anthology series would become a sensation with the introduction of Batman in issue #27 (May 1939). By then, however, Wheeler-Nicholson was gone. In 1937, in debt to printing-plant owner and magazine distributor Harry Donenfeld — who was as well a pulp-magazine publisher and a principal in the magazine distributorship Independent News — Wheeler-Nicholson was compelled to take Donenfeld on as a partner in order to publish Detective #1. Detective Comics, Inc. was formed, with Wheeler-Nicholson and Jack S. Liebowitz, Donenfeld's accountant, listed as owners. The major remained for a year, but cash-flow problems continued, and he was forced out.
+        <br>
+        <br>
+        Shortly afterward came the launch of what would have been his fourth title, National Allied Publications' Action Comics, the premiere of which introduced Superman (a character with which Wheeler-Nicholson was not directly involved; editor Vin Sullivan chose to run the feature after Sheldon Mayer rescued it from the slush pile).
+        <br>
+        <br>
+        National Allied Publications and Detective Comics, Inc., soon merged to form National Comics, which in 1944 absorbed an affiliated concern, Max (Charlie) Gaines' and Liebowitz's All-American Publications. Liebowitz then consolidated National Comics, Independent News, and related firms into National Periodical Publications, the direct precursor of DC.[1] Later that decade, Gaines was bought out and left to form Educational Comics, Inc., better known as EC. National Periodical Publications became publicly traded on the stock market in 1961.[citation needed]
+        <br>
+        <br>
+        Despite the official names National Comics and National Periodical Publications, the logo "Superman-DC" was used throughout the line, and the company known colloquially as DC Comics for years before the official adoption of that name. </p>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="./changeImage.js"></script>
+    <script src="./countdown.js"></script>
+    <script src="./scollup.js"></script>
+    <script src="./wikiApi.js"></script>
+  </body>
+</html>
